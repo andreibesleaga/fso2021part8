@@ -1,0 +1,50 @@
+{
+  "name": "fso2021part8",
+  "version": "1.0.0",
+  "description": "GraphQL",
+  "main": "index.js",
+  "private": true,
+  "author": "Andrei Besleaga",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/client": "^3.4.1",
+    "@graphql-tools/schema": "^8.0.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "apollo-server": "^3.1.1",
+    "graphql": "^15.5.1",
+    "graphql-subscriptions": "^1.2.1",
+    "mongoose": "^5.13.5",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.4.0",
+    "subscriptions-transport-ws": "^0.9.19",
+    "uuid": "^3.4.0"
+  },
+  "scripts": {
+    "server": "node backend.js",
+    "dev": "nodemon backend.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
