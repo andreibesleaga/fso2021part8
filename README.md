@@ -1,3 +1,3 @@
-# FSO 2021 Part 8
+# Full Stack Open 2021 - 8
 
 GraphQL
